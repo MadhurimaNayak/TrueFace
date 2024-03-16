@@ -7,7 +7,6 @@
 - [Problem Statement](#problem-statement)
 - [Product Idea](#product-idea)
 - [Features](#features)
-- [Getting Started](#getting-started)
 
 ## Overview
 
@@ -30,12 +29,4 @@ Our solution is a web browser extension equipped with the following features:
 - Real-time deepfake detection
 - Detailed analysis and reasoning for detection results
 - User-friendly interface for seamless browsing experience
-
-## Getting Started
-
-To get started with the Deepfake Detection Extension, follow these steps:
-
-1. Clone this repository to your local machine.
-2. Install the extension in your preferred web browser.
-3. Start browsing the web with added protection against deepfake content.
 
