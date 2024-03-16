@@ -29,3 +29,6 @@ Our solution is a web browser extension equipped with the following features:
 - Real-time deepfake detection
 - User-friendly interface for seamless browsing experience
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
