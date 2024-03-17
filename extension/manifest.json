@@ -1,0 +1,32 @@
+{
+    "name":"TrueFace",
+    "version":"1.0.0",
+    "manifest_version":3,
+    "description":"A web extension that detects deepfakes in video clips.",
+    "icons":{
+        "16":"images/icon_16.png",
+        "32":"images/icon_32.png",
+        "128":"images/icon_128.png"
+    },
+    "host_permissions": [
+      "https://www.fakeimagedetector.com/","https://www.zerogpt.com/"
+    ],
+    "permissions":["scripting","activeTab","storage","cookies"],
+    "action":{
+        "default_popup":"popup.html",
+        "default_title":"Deepfake Detector"
+    },
+    "options_page": "options/options.html",
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    }
+  
+}
+

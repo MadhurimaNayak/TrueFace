@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="bulma.min.css">
+    <link rel="stylesheet" href="popup.css">
+    
+</head>
+<body style=" display: block;justify-content: center; align-items: center;">
+    <div style="text-align: center;">
+        <img src="options/icon.jpg">
+    </div>
+   <br>
+   <p id="result"></p>
+    <div style="text-align: center;">
+        <button class="detect" id="startButton">Detect Deepfake in Video</button><br>
+        <button class="detect" id="image">Detect Deepfake in Image</button><br>
+        <button class="detect" id="news">Detect AI Generated Content</button>
+
+        <!--<button class="button is-purple is-outlined m-3" id="startButton">Detect Deepfake</button>-->
+    </div>
+
+    <script src="popup.js"></script>
+    <script src="onnx.min.js"></script>
+
+   
+</body>
+</html>

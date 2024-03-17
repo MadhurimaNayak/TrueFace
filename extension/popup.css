@@ -1,0 +1,39 @@
+.detect {
+    color: #AD0979;
+    background-color: white;
+    text-align: center;
+    margin: 12px;
+    padding: 8px 16px 8px;
+    border: 1px solid #AD0979; /* Add border with color #AD0979 */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Include border-color in transition */
+}
+
+.detect:hover {
+    color: white;
+    background-color: #AD0979;
+    border-color: #AD0979; /* Change border color on hover */
+}
+
+
+
+/*button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #04AA6D; Green 
+    color: white;
+  }*/
+
+  /*.button.is-purple {
+    color: white;
+    background-color: purple;
+    border-color: purple;
+}
+
+.button.is-purple.is-outlined {
+    color: purple;
+    background-color: transparent;
+}*/
