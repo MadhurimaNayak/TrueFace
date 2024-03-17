@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 80rem; /* Ensures the body fills the viewport height */
+    display: flex; /* Flexbox for vertical alignment */
+    flex-direction: column; /* Stacks content vertically */
+    align-content: space-between;
+  }
+  .heads {
+    height: 40px; /* Adjust height as desired */
+   
+    background-color:white /* Background color for header */
+  }
+  #heads a {  /* Changed selector to target "About Us" link */
+    text-align: right;  /* Align text to right */
+    margin-left: 30px; /* Adjust the margin as needed */
+    font-size: 30px; /* Adjust the font size as desired */
+    padding: 5px 10px;
+  }
+  
+    
+  header, main, footer {
+    flex: 1; /* Makes each section expand to fill available space */
+  }
+/* Add this CSS after your existing CSS */
+
+#heads {
+    display: flex;
+    justify-content: space-between; /* Aligns items to the start and end of the container */
+    align-items: center; /* Aligns items vertically */
+    padding: 10px; /* Adjust padding as needed */
+  }
+  
+  #heads img {
+    height: 100%; /* Ensures the image takes the full height of its container */
+  }
+  
+  #heads a {
+    margin-left: 20px; /* Adjust the margin as needed */
+  }
+  
+  
+  .about-us {
+    font-size: 100px;
+  }
+  
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px; /* Adjust the padding as desired */
+  }
+  
+  
+  .about-project, .screenshots {
+  box-shadow: 0 2px 4px grey;
+  flex: 1;
+  margin: 40px;
+  padding: 30px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  }
+  
+  h2 {
+  margin-bottom: 10px;
+  }
+  
+  .screenshots img {
+  width: 100%;
+  margin-bottom: 10px;
+  }
+  
+  .foot {
+  text-align: center;
+  justify-content: center;
+  align-content: space-evenly;
+  display: inline;
+  height:140px;
+  margin-left: 30px;
+  padding-left: 30px;
+  background-color: #f0f0f0;
+  }
+  
+  .foot a img {
+  width: 30px;
+  height: auto;
+  margin: 0 10px;
+  }
+
+  section{
+
+    transition: 0.7s;
+    border-radius: 15%;
+    width:50px;
+  }
+
+  .about-project:hover{
+    box-shadow: 10px 50px 60px black;
+    
+    width:70px;
+  }
+
+  .screenshots:hover{
+    box-shadow: 10px 50px 60px black;
+    
+    width:70px;
+  }
+  
+  .about:hover{
+    font-size: 2.5rem;
+    font-weight: 540;
+    transition: 0.5s;
+    color:black;
+  }
